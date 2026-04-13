@@ -7,21 +7,17 @@ from kmk.modules.macros import Macros, Press, Release, Tap, Delay
 
 keyboard = KMKKeyboard()
 
-
 keyboard.matrix = KeysScanner(
-    pins=(board.D10, board.D9, board.D8, board.D7, board.D3),
+    pins=(board.D4, board.D6, board.D7, board.D5, board.D3),
     value_when_pressed=False,
 )
 
-
 encoder = EncoderHandler()
-encoder.pins = ((board.D0, board.D1, None, False),)
+encoder.pins = ((board.D1, board.D2, None, False),)
 keyboard.modules.append(encoder)
-
 
 macros = Macros()
 keyboard.modules.append(macros)
-
 
 OPEN_CLAUDE = KC.MACRO(
     Press(KC.LGUI), Tap(KC.T), Release(KC.LGUI),
