@@ -18,17 +18,19 @@ Plug it in over USB-C. The XIAO runs KMK firmware (CircuitPython), so you can re
 
 The case is a single 3D-printed part. There’s no lid as it's an open-top design. The switches and encoder are exposed on top, so one part is all you need. I designed it in fusion 360.
 
-![3D model](https://github.com/user-attachments/assets/58e76b07-bd6e-4096-8258-25ca6deec124)
+<img width="718" height="317" alt="Screenshot 2026-04-13 at 16 59 34" src="https://github.com/user-attachments/assets/b9de48ea-b881-46d1-a13a-5f85ccda8ce0" />
 
 ## PCB
 
 Designed in KiCad. The encoder is at the top, XIAO in the middle, four switches in a column below.
+<img width="214" height="588" alt="Screenshot 2026-04-13 at 16 36 05" src="https://github.com/user-attachments/assets/2fe21b94-bb5d-4073-ba4c-ccb913e47d1a" />
+
 
 **Schematic**
 
-![Schematic](https://github.com/user-attachments/assets/529fd325-4f94-4036-aa46-656bd95f4d46)
+<img width="603" height="331" alt="image" src="https://github.com/user-attachments/assets/e472bd88-56b6-43e1-92f6-2a2ced2c88ec" />
 
-**PCB layout**
+
 
 
 ## Firmware
