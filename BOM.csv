@@ -1,0 +1,8 @@
+Qty,Part,Price,Notes,Link
+4,Cherry MX-compatible switch,£5.19,10x Cherry MX Blue Switches,https://amzn.eu/d/0bAqqb6x
+4,Keycaps (1u),£5.69,5x White keycaps,https://amzn.eu/d/0er6c40q
+1,EC11 rotary encoder,£3.99,1x 360 degree rotary encoder,https://amzn.eu/d/0evqXiXo
+1,Encoder knob,,Included in the EC11 rotary encoder,//
+1,Seeeduino XIAO (SAMD21),£5.44,USB-C microcontroller,https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+1,Custom PCB,,Order from JLCPCB using gerbers,https://jlcpcb.com/
+1,3D-printed case,,PLA or PETG,N/A
